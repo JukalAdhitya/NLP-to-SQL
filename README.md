@@ -59,7 +59,7 @@ Clone the repository:
 
 git clone https://github.com/JukalAdhitya/NLP-to-SQL.git
 
-cd your-repository
+cd NLP-to-SQL
 
 Install dependencies: Use pip to install the required packages.
 
