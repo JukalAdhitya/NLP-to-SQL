@@ -45,26 +45,31 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+This project is designed to help you build and deploy a Flask API to generate text-based responses using Google’s Generative AI models.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Prerequisites
+Before you begin, ensure you have the following installed:
 
-### Analyzing the Bundle Size
+Python 3.6 or above
+Flask
+Flask-CORS
+Google’s Generative AI library
+You’ll also need a Google API key with permissions to access Google Generative AI.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Installation
+Clone the repository:
 
-### Making a Progressive Web App
+git clone https://github.com/your-username/your-repository.git
+cd your-repository
+Install dependencies: Use pip to install the required packages.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+pip install Flask Flask-CORS google-generativeai
+Set up your API Key: Replace the placeholder API key in the code with your actual Google API key.
 
-### Advanced Configuration
+Usage
+Run the Flask server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+python app.py
+This will start the server on http://127.0.0.1:5000.
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Send a request: To generate a response, send a POST request to http://127.0.0.1:5000/generate with a JSON payload that includes a prompt.
