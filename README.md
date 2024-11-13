@@ -56,9 +56,11 @@ You’ll also need a Google API key with permissions to access Google Generative
 
 Installation
 Clone the repository:
-[
+
 git clone https://github.com/JukalAdhitya/NLP-to-SQL.git
+
 cd your-repository
+
 Install dependencies: Use pip to install the required packages.
 
 pip install Flask Flask-CORS google-generativeai
