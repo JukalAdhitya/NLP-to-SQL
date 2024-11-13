@@ -39,12 +39,7 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
+##Backend
 This project is designed to help you build and deploy a Flask API to generate text-based responses using Google’s Generative AI models.
 
 Prerequisites
@@ -58,8 +53,8 @@ You’ll also need a Google API key with permissions to access Google Generative
 
 Installation
 Clone the repository:
-
-git clone https://github.com/your-username/your-repository.git
+[
+git clone https://github.com/JukalAdhitya/NLP-to-SQL.git
 cd your-repository
 Install dependencies: Use pip to install the required packages.
 
