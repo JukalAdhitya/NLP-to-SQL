@@ -72,4 +72,4 @@ Run the Flask server:
 python app.py
 This will start the server on http://127.0.0.1:5000.
 
-Send a request: To generate a response, send a POST request to http://127.0.0.1:5000/generate with a JSON payload that includes a prompt.
+Send a request: To generate a response, send a POST request to http://127.0.0.1:5000/generate with a JSON payload that includes a prompt
